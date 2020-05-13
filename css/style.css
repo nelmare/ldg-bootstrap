@@ -42,3 +42,9 @@
         width: 40%;
     }
 }
+
+@media (min-width: 1200px) {
+    .w-30 {
+        width: 30%;
+    }
+}
