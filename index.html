@@ -14,7 +14,7 @@
 <header class="container-fluid bg-dark header fixed-top">
 </header>
 <main class="container w-30">
-  <div class="row align-items-center justify-content-center align-content-center min-h h-100">
+  <div class="row align-items-center justify-content-center align-content-center h-100">
     <div class="col-sm-12 my-auto">
     <div class="col-auto mx-auto text-center">
       <picture>
@@ -22,10 +22,10 @@
         <img class="logo-image" src="img/logo.png" width="150" height="114" alt="Логотип проекта Лидогенератор">
       </picture>
     </div>
-    <div class="col-12 w-100 mx-auto mb-4">
+    <div class="w-100 mx-auto mb-4">
       <h1 class="text-uppercase font-weight-bold text-center title">Лидогенератор</h1>
     </div>
-    <form class="col-12 mr-auto">
+    <form>
       <div class="form-group">
         <label class="sr-only" for="inputEmail">Email</label>
         <div class="input-group">
@@ -44,8 +44,10 @@
           <input class="form-control" type="password" id="inputPassword" placeholder="Пароль">
         </div>
       </div>
-      <div class="form-group d-flex justify-content-between">
-        <label class="form-check-label"><input class="mr-2" type="checkbox" checked>Запомнить меня</label>
+      <div class="form-group form-items d-flex justify-content-between">
+        <label class="form-check-label">
+          <input class="mr-2" type="checkbox" checked>Запомнить меня
+        </label>
         <a class="text-decoration-none" href="#">
           <ins>Восстановить пароль</ins>
         </a>
